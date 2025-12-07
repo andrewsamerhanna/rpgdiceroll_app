@@ -1,0 +1,34 @@
+{
+  "@@locale": "es",
+
+  "widgetTreeTitle": "Dragon Fire Forge",
+  "widgetTreeSubtitle": "Elige un dado y pulsa lanzar. ¡Buena suerte!",
+
+  "rollSnackbarSelectDice": "Por favor, selecciona un dado",
+  "rollSnackbarInvalidConfig": "Configuración de dados no válida",
+  "rollSnackbarDiceAboveZero": "Establece un número de dados mayor que 0",
+
+  "rollButtonText": "Lanzar",
+
+  "rollModifierNumberOfDice": "Número de dados",
+  "rollModifierDiceModifier": "Modificador de dados",
+
+  "historyEmpty": "Todavía no hay tiradas",
+  "historyCleared": "Historial borrado",
+  "historyClearButton": "Borrar historial",
+
+  "welcomePrefix": "Bienvenido a",
+  "welcomeTitle": "Dragon Fire Forge",
+  "welcomeTagline": "Forja tu suerte.\nLanza dados legendarios.",
+  "welcomeContinue": "Continuar",
+
+  "settingsTitle": "Ajustes",
+  "settingsAboutTitle": "Acerca de",
+  "settingsAboutBody": "Dragon Fire Forge\n\nUna aplicación sencilla e intuitiva para tirar dados en juegos de rol de mesa.\n\nCreada con Flutter.\nVersión 1.0.0",
+  "settingsLanguageTitle": "Idioma",
+  "settingsLanguageLabel": "Idioma de la aplicación",
+
+  "homeTabTabletop": "MESA",
+  "homeTabHistory": "HISTORIAL"
+}
+

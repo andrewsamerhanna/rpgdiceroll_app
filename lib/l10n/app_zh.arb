@@ -1,0 +1,34 @@
+{
+  "@@locale": "zh",
+
+  "widgetTreeTitle": "龙火锻造坊",
+  "widgetTreeSubtitle": "选择一个骰子并点击掷骰。祝你好运！",
+
+  "rollSnackbarSelectDice": "请选择一个骰子",
+  "rollSnackbarInvalidConfig": "无效的骰子配置",
+  "rollSnackbarDiceAboveZero": "请将骰子数量设置为大于 0",
+
+  "rollButtonText": "掷骰",
+
+  "rollModifierNumberOfDice": "骰子数量",
+  "rollModifierDiceModifier": "骰子修正值",
+
+  "historyEmpty": "暂无掷骰记录",
+  "historyCleared": "历史记录已清除",
+  "historyClearButton": "清除历史",
+
+  "welcomePrefix": "欢迎来到",
+  "welcomeTitle": "龙火锻造坊",
+  "welcomeTagline": "锻造你的幸运。\n掷出传奇骰子。",
+  "welcomeContinue": "继续",
+
+  "settingsTitle": "设置",
+  "settingsAboutTitle": "关于",
+  "settingsAboutBody": "龙火锻造坊\n\n一款简单直观的桌面 RPG 掷骰应用。\n\n使用 Flutter 构建。\n版本 1.0.0",
+  "settingsLanguageTitle": "语言",
+  "settingsLanguageLabel": "应用语言",
+
+  "homeTabTabletop": "桌面",
+  "homeTabHistory": "历史"
+}
+

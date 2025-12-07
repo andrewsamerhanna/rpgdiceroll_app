@@ -1,0 +1,76 @@
+// import 'dart:math';
+import 'package:flutter/material.dart';
+import 'package:rpgdiceroll_app/data/notifiers.dart';
+import 'package:rpgdiceroll_app/views/pages/welcome_page.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+
+void main() {
+  runApp(const RPGApp());
+}
+
+class RPGApp extends StatelessWidget {
+  const RPGApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: ValueListenableBuilder(
+        valueListenable:  isDarkModeSelectedNotifier,
+        builder: (context, isDarkModeSelected, child) {
+          return  MaterialApp(
+            // Language support added based on device local
+            localizationsDelegates: [
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: [
+              // English
+              Locale('en'),
+              // Chinese Variants
+              Locale.fromSubtags(languageCode: 'zh'),
+              Locale.fromSubtags(
+                languageCode: 'zh',
+                scriptCode: 'Hans',
+                ),
+                Locale.fromSubtags(
+                  languageCode: 'zh',
+                  scriptCode: 'Hant',
+                  ),
+                Locale.fromSubtags(
+                  languageCode: 'zh',
+                  scriptCode: 'Hans',
+                  countryCode: 'CN',
+                ), // 'zh_Hans_CN'
+                Locale.fromSubtags(
+                  languageCode: 'zh',
+                  scriptCode: 'Hant',
+                  countryCode: 'TW',
+                ), // 'zh_Hant_TW'
+                Locale.fromSubtags(
+                  languageCode: 'zh',
+                  scriptCode: 'Hant',
+                  countryCode: 'HK',
+                ),
+              // Spanish
+              Locale('es'),
+              // German
+              Locale('de'),
+              //French
+              Locale('fr'),
+            ],
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(
+              colorScheme: ColorScheme.fromSeed(
+              seedColor: Colors.deepPurple,
+              brightness: isDarkModeSelected ? Brightness.dark : Brightness.light,
+              )
+            ),
+            home: WelcomePage(),
+          );
+        },
+      ),
+    ); 
+  }
+}

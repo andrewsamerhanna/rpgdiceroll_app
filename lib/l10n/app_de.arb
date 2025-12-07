@@ -1,0 +1,34 @@
+{
+  "@@locale": "de",
+
+  "widgetTreeTitle": "Dragon Fire Forge",
+  "widgetTreeSubtitle": "Wähle einen Würfel und tippe auf Würfeln. Viel Glück!",
+
+  "rollSnackbarSelectDice": "Bitte wähle einen Würfel",
+  "rollSnackbarInvalidConfig": "Ungültige Würfelkonfiguration",
+  "rollSnackbarDiceAboveZero": "Bitte eine Würfelanzahl größer als 0 einstellen",
+
+  "rollButtonText": "Würfeln",
+
+  "rollModifierNumberOfDice": "Anzahl der Würfel",
+  "rollModifierDiceModifier": "Würfelmodifikator",
+
+  "historyEmpty": "Noch keine Würfe",
+  "historyCleared": "Verlauf gelöscht",
+  "historyClearButton": "Verlauf löschen",
+
+  "welcomePrefix": "Willkommen bei",
+  "welcomeTitle": "Dragon Fire Forge",
+  "welcomeTagline": "Schmiede dein Glück.\nWürfle legendäre Würfel.",
+  "welcomeContinue": "Weiter",
+
+  "settingsTitle": "Einstellungen",
+  "settingsAboutTitle": "Info",
+  "settingsAboutBody": "Dragon Fire Forge\n\nEine einfache und intuitive Würfel-App für Pen-&-Paper-Rollenspiele.\n\nErstellt mit Flutter.\nVersion 1.0.0",
+  "settingsLanguageTitle": "Sprache",
+  "settingsLanguageLabel": "App-Sprache",
+
+  "homeTabTabletop": "TISCH",
+  "homeTabHistory": "VERLAUF"
+}
+
